@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form Page</h1>
+    <hr>
+    <form action="" method="">
+        <p>
+            <label for="">Name</label>
+            <input type="text" placeholder="Please enter your full name" required/>
+        </p>
+        <p>
+            <label for="">Phone</label>
+            <input type="number"/>
+        </p>
+        <p>
+            <label for="">Email</label>
+            <input type="email"/>
+        </p>
+        <p>
+            <label for="">Password</label>
+            <input type="password"/>
+        </p>
+        <p>
+            <label for="">Facebook</label>
+            <input type="url"/>
+        </p>
+        <p>
+            <label for="">DOB</label>
+            <input type="date"/>
+        </p>
+        <p>
+            <label for="">Messages</label>
+            <textarea cols="30" rows="10" minlength="5" maxlength="100"></textarea>
+        </p>
+        <p>
+            <label for="">Resume</label>
+            <input type="file"/>
+        </p>
+        <p>
+            <label>Gender:</label>
+            <input type="radio" name="gender"><label>Male</label>
+            <input type="radio" name="gender"><label>Female</label>
+            <input type="radio" name="gender"><label>Trans</label>
+        </p>
+        <p>
+            <label>What do you want to learn?</label><br>
+            <input type="checkbox"><label>CSS</label><br>
+            <input type="checkbox"><label>Javascript</label><br>
+            <input type="checkbox"><label>React</label>
+        </p>
+        <p>
+            <label>Price Range</label>
+            <input type="range" min="1" max="100" value="50">
+        </p>
+        <p>
+            <label for="">Select the fruit</label>
+            <select name="" id="" multiple>
+                <option value="">Apple</option>
+                <option value="">Banana</option>
+                <option value="">Grape</option>
+                <option value="">Blueberries</option>
+            </select>
+        </p>
+        <p>
+            <label for="">Select the fruit</label>
+            <select name="" id="" multiple>
+                <optgroup label="Fruits">
+                    <option value="">Apple</option>
+                    <option value="">Banana</option>
+                    <option value="">Grape</option>
+                    <option value="">Blueberries</option>
+                </optgroup>
+                <optgroup label="Vegetables">
+                    <option value="">Lettuce</option>
+                    <option value="">Buk Choi</option>
+                    <option value="">Gai Lan</option>
+                    <option value="">Cabbage</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="">Select a fruit: </label>
+            <input type="text" list="linked">
+
+            <datalist id="linked">
+                <option value="Apple"></option>
+                <option value="Banana"></option>
+                <option value="Grape"></option>
+                <option value="Blueberries"></option>
+                <option value="Apple1"></option>
+                <option value="Banana1"></option>
+                <option value="Grape1"></option>
+                <option value="Blueberries1"></option>
+            </datalist>
+        </p>
+        <hr>
+        
+        <input type="checkbox"><label>I accept the term and conditions</label> <br>
+        <input type="submit" />
+    </form>
+</body>
+</html>
